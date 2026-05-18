@@ -4,8 +4,8 @@
 
 | 子域 | 范围 | 状态 |
 |---|---|---|
-| `prompt-engineering/` | CoT / Few-shot / Self-Critique / 宪法式 / 角色设定 / 上下文工程 | 待 PR4 |
-| `agentic-coding/` | Claude Code / Cursor / Aider / Cline / Continue 选型；MCP / Skills / Subagent / Hooks | 待 PR4 |
+| `prompt-engineering/` | 抗错模式、上下文工程、提示词膨胀反模式 | PR4：2 篇 |
+| `agentic-coding/` | 选型判据（非盘点）、MCP/Skills/Subagent/Hooks 何时值得 | PR4：2 篇 |
 | `pkm-rag/` | Obsidian/Logseq + AI、个人 RAG、与阅读助手 v4 衔接 | 待 PR4 |
 | `efficiency-metrics/` | 提效量化（节省 vs 返工）、何时 AI 反而拖慢 | 待 PR5 |
 | `workflow-integration/` | 编辑器集成、CI/CD 中的 AI、Mermaid/PlantUML、Markdown-as-Code | 待 PR5 |

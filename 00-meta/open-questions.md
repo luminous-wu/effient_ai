@@ -10,3 +10,5 @@
 | OQ-004 | open | 是否值得维护"方言锚片段库"（每方言一段权威骨架）作为 prompt 前缀复用？ | [[ld-vs-lsl-vs-ghs-dialects]] | |
 | OQ-005 | open | Capstone 对 TriCore (TC3xx) ISA 的覆盖度与正确性是否够用？需小样本实测 | [[pyelftools-capstone-workflow]] | |
 | OQ-006 | open | 是否维护"ISA 锚小抄"（TriCore/ARM 各一页）作反汇编提问前缀？与 OQ-004 合并管理？ | [[disasm-comprehension-ai]] | |
+| OQ-007 | open | 只读 IR MCP 能否实测降低算术幻觉？相对"贴 JSON 进 prompt"增益是否值这套基建？ | [[mcp-skills-subagents-hooks]] | |
+| OQ-008 | open | subagent 交叉验证如何保证"独立性"（异 prompt/异模型/异方法）才算真双人确认？ | [[mcp-skills-subagents-hooks]] | |
