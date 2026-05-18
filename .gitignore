@@ -1,0 +1,37 @@
+# === IP 边界：默认拒绝二进制 / 构建产物 / 规格类（CLAUDE.md §8）===
+# 需要入库时显式 `git add -f`，且必须先脱敏。
+*.elf
+*.o
+*.a
+*.bin
+*.hex
+*.srec
+*.out
+*.map
+*.lst
+*.lss
+*.axf
+
+# 公司规格 / 文档类（仅入库抽象化索引与心得，不入原文件）
+*.docx
+*.doc
+*.pdf
+*.xlsx
+*.pptx
+*.arxml
+
+# 任何显式标注为内部的文件
+*-internal*
+*_internal*
+*.internal.*
+
+# 编辑器 / OS 杂项
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/
+.vscode/
+# Obsidian 工作区缓存（保留 vault 内容，忽略本地 UI 状态）
+.obsidian/workspace*.json
+.obsidian/cache/
