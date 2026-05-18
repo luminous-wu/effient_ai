@@ -8,3 +8,5 @@
 | OQ-002 | open | 链接脚本审查 prompt（Self-Critique 变体）命中率/误报率如何，是否值得固化进 `40-prompts/`？ | [[linker-script-ai-review]] | |
 | OQ-003 | open | 能否用机读的硬件约束 schema（YAML）喂 AI，降低 memlay "自造约束"误报率？ | [[memlay-architecture-ai-assist]] | |
 | OQ-004 | open | 是否值得维护"方言锚片段库"（每方言一段权威骨架）作为 prompt 前缀复用？ | [[ld-vs-lsl-vs-ghs-dialects]] | |
+| OQ-005 | open | Capstone 对 TriCore (TC3xx) ISA 的覆盖度与正确性是否够用？需小样本实测 | [[pyelftools-capstone-workflow]] | |
+| OQ-006 | open | 是否维护"ISA 锚小抄"（TriCore/ARM 各一页）作反汇编提问前缀？与 OQ-004 合并管理？ | [[disasm-comprehension-ai]] | |
