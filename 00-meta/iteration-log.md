@@ -4,6 +4,7 @@
 
 | 日期 | PR | 范围 | 关键决策 / ADR | 下一步 |
 |---|---|---|---|---|
+| 2026-05-18 | PR8 | 约定执行化：`tools/kb_check.py`（零依赖，frontmatter/死链/脱敏闸）+ `hooks/pre-commit` + 季度 `skill-maintenance.md` + 回顾模板加强制保养行 | 约定从自觉变可阻断提交；hook 启用权留给用户（不替改 git config）；全量 59 .md 校验通过 | 待定：阅读助手 v4 正文 / 60-references 充实 / 首次月度回顾 |
 | 2026-05-18 | PR7 | `20-general/pkm-rag/` 2 篇 + `workflow-integration/` 2 篇；20-general 五子域全部成稿 | 通用层完成；确立"存储层纯文本可迁移、集成层只校验不创作"；新增 OQ-011 | PR8：回访机制落地（技能保养清单 + 月度回顾接线 + 最小 pre-commit 脱敏闸）或按你优先级 |
 | 2026-05-18 | PR6 | `os-autosar/` 2 篇 + `debug-diagnostics/` 2 篇 + `hil-sim/` 1 篇；10-domain 六子域全部成稿 | 领域域骨架完成，主线全域贯通；新增 OQ-009/010；本地 LLM 退路落到 datasheet-rag | PR7：00-meta 回访机制（技能保养清单、月度回顾接线）或按你优先级调整 |
 | 2026-05-18 | PR5 | `30-workflows/` 2 个 SOP（size 回归 / 链接脚本评审）+ `20-general/efficiency-metrics/` 2 篇（净提效 / 能力退化反模式） | SOP 引入 ⛔ 不可全自动闸；确立长期反向 KPI（判断力 > 短期提效） | PR6：`10-domain/os-autosar/` + `debug-diagnostics/` + `hil-sim/` |

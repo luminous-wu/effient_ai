@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# KB pre-commit 闸：强制 CLAUDE.md §3/§8 约定。
+# 启用（一次性，自己执行，不由 Claude 改 git config）：
+#   git config core.hooksPath 00-meta/hooks
+# 绕过（仅在你确认是误报时）：git commit --no-verify
+set -euo pipefail
+REPO="$(git rev-parse --show-toplevel)"
+exec python3 "$REPO/00-meta/tools/kb_check.py" --staged
