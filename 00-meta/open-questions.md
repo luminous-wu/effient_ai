@@ -14,3 +14,4 @@
 | OQ-008 | open | subagent 交叉验证如何保证"独立性"（异 prompt/异模型/异方法）才算真双人确认？ | [[mcp-skills-subagents-hooks]] | |
 | OQ-009 | open | XSD/引用校验能否做成 hook 或 MCP，让 AI 改写 ARXML 后强制过闸？ | [[arxml-ai-assist]] | |
 | OQ-010 | open | 本地小模型在寄存器表 RAG 的位精确正确率是否够用？vs 仅检索+人读原文 | [[datasheet-rag]] | |
+| OQ-011 | open | 个人 RAG 是否值得？vs 直接 Obsidian 搜索+双链。增益须实测，别为建而建 | [[personal-rag]] | |

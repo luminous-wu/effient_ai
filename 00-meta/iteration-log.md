@@ -4,6 +4,7 @@
 
 | 日期 | PR | 范围 | 关键决策 / ADR | 下一步 |
 |---|---|---|---|---|
+| 2026-05-18 | PR7 | `20-general/pkm-rag/` 2 篇 + `workflow-integration/` 2 篇；20-general 五子域全部成稿 | 通用层完成；确立"存储层纯文本可迁移、集成层只校验不创作"；新增 OQ-011 | PR8：回访机制落地（技能保养清单 + 月度回顾接线 + 最小 pre-commit 脱敏闸）或按你优先级 |
 | 2026-05-18 | PR6 | `os-autosar/` 2 篇 + `debug-diagnostics/` 2 篇 + `hil-sim/` 1 篇；10-domain 六子域全部成稿 | 领域域骨架完成，主线全域贯通；新增 OQ-009/010；本地 LLM 退路落到 datasheet-rag | PR7：00-meta 回访机制（技能保养清单、月度回顾接线）或按你优先级调整 |
 | 2026-05-18 | PR5 | `30-workflows/` 2 个 SOP（size 回归 / 链接脚本评审）+ `20-general/efficiency-metrics/` 2 篇（净提效 / 能力退化反模式） | SOP 引入 ⛔ 不可全自动闸；确立长期反向 KPI（判断力 > 短期提效） | PR6：`10-domain/os-autosar/` + `debug-diagnostics/` + `hil-sim/` |
 | 2026-05-18 | PR4 | `20-general/prompt-engineering/` 2 篇 + `agentic-coding/` 2 篇 | 把 10-domain 主线上提为通用层判据：高阶机制唯一正当目的=把确定性还给工具；新增 OQ-007/008 | PR5：`30-workflows/` SOP + `20-general/efficiency-metrics/`（含能力退化/反模式） |
